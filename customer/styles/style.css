@@ -1,0 +1,182 @@
+/*
+    CSS RESET CODE:
+    IT WILL REMOVE THE NATIVE CSS DEFINITIONS FROM THE BROWSERS
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+h1 {
+padding: 6px;
+
+}
+
+body {    
+    background: lightgray;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(65, 64, 64);   
+}
+
+.main_wrapper{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.header_wrapper{
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+}
+
+.menubar {
+    width: 1000px;
+    height: 50px; 
+    background: rgb(165, 163, 163);
+    color: white;
+}
+
+#menu {
+    padding: 7;
+    margin: 0;
+    margin-left: 40px;
+    line-height: 35px;
+    float: left;
+}
+
+#menu li {
+list-style: none;
+display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 8px;
+    margin: 6px;
+    font-size: 18px;
+    color: white;
+    /*font-weight: bolder;*/
+}
+
+#menu a:hover {
+    color: rgb(114, 114, 114);
+    /*font-weight: bolder;*/
+}
+
+#form {
+    float: right;
+    padding: 15px;
+}
+
+input {
+    border: 0;
+    font-size: 16px;
+    color: rgb(87, 84, 84) ;
+}
+
+
+
+.content_wrapper {
+    width: 1000px;
+    /*height: 800px;*/
+    margin: auto;
+    background: rgb(255, 255, 255);
+}
+
+#content_area {
+    width: 850px;
+    height: 1500px;
+    float: right;
+    /*background: orange;*/
+    background: linear-gradient(90deg, rgb(101, 233, 184) 0%, rgb(229, 231, 233) 100%, rgba(0,255,168,0) 100%);
+}
+
+#sidebar {
+    width: 150px;
+    height: 1500px;
+    /*background: rgba(248, 95, 40, 0.788);*/
+    /*background: linear-gradient(90deg, rgba(12,179,248,1) 0%, rgba(12,248,163,1) 100%, rgba(0,255,168,0) 100%);*/
+    background: linear-gradient(90deg, rgb(99, 196, 238) 0%, rgb(101, 233, 184) 100%, rgba(0,255,168,0) 100%);
+    float: left;
+}
+
+#sidebar_title{
+    font-size: 18px;
+    padding: 14px;
+    font-weight: bolder;
+}
+
+#cats li {
+    list-style: none;
+    padding: 5px;
+    }
+    
+#cats a {
+    text-decoration: none;
+    /*padding: 15px;*/
+    margin-left: 15px;
+    font-size: 18px;
+    color: rgb(65, 64, 64);
+    }
+
+#cats a:hover {
+    background: rgba(65, 64, 64, 0.199);
+    }
+
+#products_box {
+    width: 780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#single_product {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#single_product img {
+    border: 1px solid gray;
+}
+
+#shopping_cart {
+    width: 850px;
+    height: 40px;
+    background: black;
+    color: white;
+
+}
+
+
+#footer {
+    width: 1000px;
+    height: 50px;
+    background: rgb(165, 163, 163) ;
+    clear: both;
+}
